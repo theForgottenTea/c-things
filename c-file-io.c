@@ -19,7 +19,7 @@
 
 int main(){
 	//create pointer
-	file *filePointer
+	file *filePointer;
 	
 	//pass arguements to fopen. i assume those arguments will be held in
 	//the pointer file pointer
