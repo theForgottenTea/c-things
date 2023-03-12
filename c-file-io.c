@@ -28,6 +28,7 @@ int main(){
 	//pass arguements to fopen. i assume those arguments will be held in
 	//the pointer file pointer
 	filePointer=fopen("testfile.txt", "w");
+	//once the file is created on the system it can be accessed by changing w to a then given additional char or int data
 	
 	//Pass 3 arguments to fprintf
 	//(MEMORYPLACE OF THING,"DATA TYPE", TEXT TO BE SENT TO... IDK NARNIA
@@ -37,5 +38,6 @@ int main(){
 	
 	//close filePointer
 	fclose(filePointer);
+	//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!^^^^^ that line is important. dont be a fool^^^^^^^^^^^!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	return 0;
 }
