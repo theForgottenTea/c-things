@@ -1,0 +1,12 @@
+#including <stdio.h>
+#including <sqlite3.h>
+int main(){
+//load sqlite3
+//sqlite3 *databasepointer;
+//int dbworkspace = sqlite3_open(SOME ARGUMENT, &databasepointer
+
+int sqlite3_open(const char *testDBfile.db, sqlite3 **ppDb);
+
+
+return 0;
+}
